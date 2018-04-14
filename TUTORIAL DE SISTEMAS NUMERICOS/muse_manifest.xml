@@ -1,0 +1,164 @@
+<manifest alg="2" build="704" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="3837790900"/>
+    <file name="master_a-p_gina-maestra.css" crc="501518246" ref="unidad-3:unidad-1:index:2-1:2-4:unidad-2:2-3:historia:2-6:1-3:1-1:3-6:3-5:3-4:2-2:2-5:temario:1-2:1-5:evaluaciones:3-1:1-4:3-3:2-7:3-2"/>
+    <file name="unidad-3.css" crc="4277149764" ref="unidad-3"/>
+    <file name="unidad-1.css" crc="4016225482" ref="unidad-1"/>
+    <file name="index.css" crc="3975420122" ref="index"/>
+    <file name="2-1.css" crc="18052879" ref="2-1"/>
+    <file name="2-4.css" crc="400791050" ref="2-4"/>
+    <file name="unidad-2.css" crc="171802184" ref="unidad-2"/>
+    <file name="2-3.css" crc="313745238" ref="2-3"/>
+    <file name="historia.css" crc="362162420" ref="historia"/>
+    <file name="2-6.css" crc="3869414659" ref="2-6"/>
+    <file name="1-3.css" crc="30636095" ref="1-3"/>
+    <file name="1-1.css" crc="4021622271" ref="1-1"/>
+    <file name="3-6.css" crc="27920701" ref="3-6"/>
+    <file name="3-5.css" crc="230351599" ref="3-5"/>
+    <file name="3-4.css" crc="398298584" ref="3-4"/>
+    <file name="2-2.css" crc="3776697818" ref="2-2"/>
+    <file name="2-5.css" crc="223288456" ref="2-5"/>
+    <file name="temario.css" crc="38894198" ref="temario"/>
+    <file name="1-2.css" crc="4200112232" ref="1-2"/>
+    <file name="1-5.css" crc="454996546" ref="1-5"/>
+    <file name="evaluaciones.css" crc="511066699" ref="evaluaciones"/>
+    <file name="3-1.css" crc="322067972" ref="3-1"/>
+    <file name="1-4.css" crc="29560215" ref="1-4"/>
+    <file name="3-3.css" crc="4101508007" ref="3-3"/>
+    <file name="2-7.css" crc="359092859" ref="2-7"/>
+    <file name="3-2.css" crc="3798858068" ref="3-2"/>
+  </folder>
+  <folder name="assets">
+    <file name="img1.png" crc="4010412016" mt="1327428662000"/>
+    <file name="1.mp4" crc="401783523" mt="1328373744000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="museredirect.js" crc="236897542" ref="index:historia:temario:1-1:2-1:evaluaciones:3-1"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:historia:temario:1-1:2-1:evaluaciones:unidad-1:unidad-2:unidad-3:1-2:1-3:1-4:1-5:2-2:2-3:2-4:2-5:2-6:2-7:3-1:3-2:3-3:3-4:3-5:3-6:tablet>index:tablet>historia:tablet>temario:tablet>evaluaciones:tablet>3-1:tablet>1-1:tablet>2-1:tablet>untitled-8:phone>index"/>
+    <file name="museutils.js" crc="3992981318" ref="index:historia:temario:1-1:2-1:evaluaciones:unidad-1:unidad-2:unidad-3:1-2:1-3:1-4:1-5:2-2:2-3:2-4:2-5:2-6:2-7:3-1:3-2:3-3:3-4:3-5:3-6:tablet>index:tablet>historia:tablet>temario:tablet>evaluaciones:tablet>3-1:tablet>1-1:tablet>2-1:tablet>untitled-8:phone>index"/>
+    <file name="pie.js" crc="3827607177" ref="index:historia:temario:1-1:2-1:evaluaciones:unidad-1:unidad-2:unidad-3:1-2:1-3:1-4:1-5:2-2:2-3:2-4:2-5:2-6:2-7:3-1:3-2:3-3:3-4:3-5:3-6:tablet>index:tablet>historia:tablet>temario:tablet>evaluaciones:tablet>3-1:tablet>1-1:tablet>2-1:tablet>untitled-8:phone>index"/>
+    <file name="jquery.musemenu.js" crc="3788803530" ref="index:historia:temario:1-1:2-1:evaluaciones:unidad-1:unidad-2:unidad-3:1-2:1-3:1-4:1-5:2-2:2-3:2-4:2-5:2-6:2-7:3-1:3-2:3-3:3-4:3-5:3-6:tablet>index:tablet>historia:tablet>temario:tablet>evaluaciones:tablet>3-1:tablet>1-1:tablet>2-1:tablet>untitled-8:phone>index"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index:historia:temario:1-1:2-1:evaluaciones:unidad-1:unidad-2:unidad-3:1-2:1-3:1-4:1-5:2-2:2-3:2-4:2-5:2-6:2-7:3-1:3-2:3-3:3-4:3-5:3-6:tablet>index:tablet>historia:tablet>temario:tablet>evaluaciones:tablet>3-1:tablet>1-1:tablet>2-1:tablet>untitled-8:phone>index"/>
+  </folder>
+  <folder name="images">
+    <file name="idice.png" crc="4187871494" ref="index:historia:temario:1-1:2-1:evaluaciones:unidad-1:unidad-2:unidad-3:1-2:1-3:1-4:1-5:2-2:2-3:2-4:2-5:2-6:2-7:3-1:3-2:3-3:3-4:3-5:3-6:tablet>index:tablet>historia:tablet>temario:tablet>evaluaciones:tablet>3-1:tablet>1-1:tablet>2-1:tablet>untitled-8"/>
+    <file name="escudo-u155.png" crc="300252708" ref="index:historia:temario:1-1:2-1:evaluaciones:unidad-1:unidad-2:unidad-3:1-2:1-3:1-4:1-5:2-2:2-3:2-4:2-5:2-6:2-7:3-1:3-2:3-3:3-4:3-5:3-6"/>
+    <file name="img3-u182.png" crc="19758843" ref="index"/>
+    <file name="img1-u166.png" crc="4119391766" ref="index"/>
+    <file name="img2-u188.png" crc="139971239" ref="index"/>
+    <file name="img3-u999.png" crc="289531020" ref="1-1"/>
+    <file name="atras-u1040.png" crc="416874029" ref="1-1"/>
+    <file name="adelante-u1045.png" crc="429516252" ref="1-1"/>
+    <file name="atras-u1127.png" crc="416874029" ref="2-1"/>
+    <file name="img3-u1124.png" crc="289531020" ref="2-1"/>
+    <file name="adelante-u1129.png" crc="429516252" ref="2-1"/>
+    <file name="img3-u1050.png" crc="289531020" ref="1-2"/>
+    <file name="atras-u1052.png" crc="416874029" ref="1-2"/>
+    <file name="adelante-u1054.png" crc="429516252" ref="1-2"/>
+    <file name="img3-u1059.png" crc="289531020" ref="1-3"/>
+    <file name="atras-u1061.png" crc="416874029" ref="1-3"/>
+    <file name="adelante-u1063.png" crc="429516252" ref="1-3"/>
+    <file name="img3-u1204.png" crc="289531020" ref="1-4"/>
+    <file name="atras-u1207.png" crc="416874029" ref="1-4"/>
+    <file name="adelante-u1209.png" crc="429516252" ref="1-4"/>
+    <file name="img3-u1194.png" crc="289531020" ref="1-5"/>
+    <file name="atras-u1197.png" crc="416874029" ref="1-5"/>
+    <file name="atras-u1137.png" crc="416874029" ref="2-2"/>
+    <file name="img3-u1134.png" crc="289531020" ref="2-2"/>
+    <file name="adelante-u1139.png" crc="429516252" ref="2-2"/>
+    <file name="img3-u1144.png" crc="289531020" ref="2-3"/>
+    <file name="atras-u1147.png" crc="416874029" ref="2-3"/>
+    <file name="adelante-u1149.png" crc="429516252" ref="2-3"/>
+    <file name="img3-u1154.png" crc="289531020" ref="2-4"/>
+    <file name="atras-u1157.png" crc="416874029" ref="2-4"/>
+    <file name="adelante-u1159.png" crc="429516252" ref="2-4"/>
+    <file name="atras-u1167.png" crc="416874029" ref="2-5"/>
+    <file name="img3-u1164.png" crc="289531020" ref="2-5"/>
+    <file name="adelante-u1169.png" crc="429516252" ref="2-5"/>
+    <file name="atras-u1177.png" crc="416874029" ref="2-6"/>
+    <file name="img3-u1174.png" crc="289531020" ref="2-6"/>
+    <file name="adelante-u1179.png" crc="429516252" ref="2-6"/>
+    <file name="img3-u1184.png" crc="289531020" ref="2-7"/>
+    <file name="atras-u1187.png" crc="416874029" ref="2-7"/>
+    <file name="atras-u1217.png" crc="416874029" ref="3-1"/>
+    <file name="img3-u1214.png" crc="289531020" ref="3-1"/>
+    <file name="adelante-u1219.png" crc="429516252" ref="3-1"/>
+    <file name="img3-u1224.png" crc="289531020" ref="3-2"/>
+    <file name="atras-u1227.png" crc="416874029" ref="3-2"/>
+    <file name="adelante-u1229.png" crc="429516252" ref="3-2"/>
+    <file name="img3-u1234.png" crc="289531020" ref="3-3"/>
+    <file name="atras-u1237.png" crc="416874029" ref="3-3"/>
+    <file name="adelante-u1239.png" crc="429516252" ref="3-3"/>
+    <file name="img3-u1244.png" crc="289531020" ref="3-4"/>
+    <file name="atras-u1247.png" crc="416874029" ref="3-4"/>
+    <file name="adelante-u1249.png" crc="429516252" ref="3-4"/>
+    <file name="img3-u1254.png" crc="289531020" ref="3-5"/>
+    <file name="atras-u1257.png" crc="416874029" ref="3-5"/>
+    <file name="adelante-u1259.png" crc="429516252" ref="3-5"/>
+    <file name="img3-u1264.png" crc="289531020" ref="3-6"/>
+    <file name="atras-u1267.png" crc="416874029" ref="3-6"/>
+    <file name="escudo-u672.png" crc="4034196660" ref="tablet>index:tablet>historia:tablet>temario:tablet>evaluaciones:tablet>3-1:tablet>1-1:tablet>2-1:tablet>untitled-8"/>
+    <file name="img3-u900.png" crc="19758843" ref="tablet>index"/>
+    <file name="img1-u897.png" crc="4119391766" ref="tablet>index"/>
+    <file name="img2-u903.png" crc="139971239" ref="tablet>index"/>
+    <file name="tabla.png" crc="3940186084" ref="tablet>1-1"/>
+    <file name="atras-u1104.png" crc="4167211059" ref="tablet>1-1"/>
+    <file name="img3-u1101.png" crc="289531020" ref="tablet>1-1"/>
+    <file name="adelante-u1106.png" crc="4281067383" ref="tablet>1-1"/>
+    <file name="cabeza.jpg" crc="4068893280" ref="phone>index"/>
+    <file name="escudo-u740.png" crc="310756609" ref="phone>index"/>
+  </folder>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="master_a-p_gina-maestra.css" crc="380654286" ref="tablet>3-1:tablet>1-1:tablet>2-1:tablet>untitled-8:tablet>index:tablet>historia:tablet>temario:tablet>evaluaciones"/>
+      <file name="3-1.css" crc="3908089551" ref="tablet>3-1"/>
+      <file name="1-1.css" crc="3986518111" ref="tablet>1-1"/>
+      <file name="2-1.css" crc="3807160257" ref="tablet>2-1"/>
+      <file name="untitled-8.css" crc="93260816" ref="tablet>untitled-8"/>
+      <file name="index.css" crc="4126085220" ref="tablet>index"/>
+      <file name="historia.css" crc="4079559608" ref="tablet>historia"/>
+      <file name="temario.css" crc="4065649941" ref="tablet>temario"/>
+      <file name="evaluaciones.css" crc="3908089551" ref="tablet>evaluaciones"/>
+    </folder>
+    <file name="index.html" crc="453942251" mt="1382033863701"/>
+    <file name="historia.html" crc="60819539" mt="1382033863710"/>
+    <file name="temario.html" crc="3944237478" mt="1382033863713"/>
+    <file name="evaluaciones.html" crc="4260709072" mt="1382033863715"/>
+    <file name="3-1.html" crc="184488771" mt="1382034067727"/>
+    <file name="1-1.html" crc="240097737" mt="1382371449738"/>
+    <file name="2-1.html" crc="3950590873" mt="1382115236229"/>
+    <file name="untitled-8.html" crc="346585435" mt="1382371263947"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="master_a-p_gina-maestra.css" crc="3998179776" ref="phone>index"/>
+      <file name="index.css" crc="165785985" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="3888714577" mt="1380578689502"/>
+  </folder>
+  <file name="index.html" crc="58367763" mt="1382375102626"/>
+  <file name="historia.html" crc="398927081" mt="1382375102628"/>
+  <file name="temario.html" crc="3836016384" mt="1382375102638"/>
+  <file name="1-1.html" crc="231788818" mt="1382375102642"/>
+  <file name="2-1.html" crc="3915666939" mt="1382375102650"/>
+  <file name="evaluaciones.html" crc="3934916107" mt="1382375102658"/>
+  <file name="unidad-1.html" crc="275002348" mt="1382375102662"/>
+  <file name="unidad-2.html" crc="4010424344" mt="1382375102666"/>
+  <file name="unidad-3.html" crc="3859278150" mt="1382375102674"/>
+  <file name="1-2.html" crc="3925922113" mt="1382375102679"/>
+  <file name="1-3.html" crc="320466245" mt="1382375102682"/>
+  <file name="1-4.html" crc="3791257924" mt="1382375102690"/>
+  <file name="1-5.html" crc="3904604450" mt="1382375102694"/>
+  <file name="2-2.html" crc="458713518" mt="1382375102698"/>
+  <file name="2-3.html" crc="315646441" mt="1382375102709"/>
+  <file name="2-4.html" crc="45042102" mt="1382375102712"/>
+  <file name="2-5.html" crc="455801735" mt="1382375102717"/>
+  <file name="2-6.html" crc="4268687045" mt="1382375102725"/>
+  <file name="2-7.html" crc="452353999" mt="1382375102729"/>
+  <file name="3-1.html" crc="263398521" mt="1382375102732"/>
+  <file name="3-2.html" crc="172985164" mt="1382375102741"/>
+  <file name="3-3.html" crc="3897589518" mt="1382375102743"/>
+  <file name="3-4.html" crc="44740727" mt="1382375102747"/>
+  <file name="3-5.html" crc="224246881" mt="1382375102757"/>
+  <file name="3-6.html" crc="3952096861" mt="1382375102760"/>
+</manifest>

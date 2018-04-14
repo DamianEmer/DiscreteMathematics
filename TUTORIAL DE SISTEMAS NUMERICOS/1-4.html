@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="5.0.704.218"/>
+  <title>matematicas didactico1&#45;4</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?3837790900"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-p_gina-maestra.css?501518246"/>
+  <link rel="stylesheet" type="text/css" href="css/1-4.css?29560215" id="pagesheet"/>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className += ' js';
+</script>
+   </head>
+ <body>
+
+  <div class="shadow rgba-background rounded-corners clearfix" id="page"><!-- column -->
+   <div class="position_content" id="page_position_content">
+    <div class="clearfix colelem" id="ppu146"><!-- group -->
+     <div class="grpelem" id="pu146"><!-- inclusion -->
+      <div class="shadow" id="u146"><!-- simple frame --></div>
+      <div class="clearfix" id="pmenuu318"><!-- group -->
+       <ul class="MenuBar rounded-corners clearfix grpelem" id="menuu318"><!-- row -->
+        <li class="MenuItemContainer clearfix grpelem" id="u333"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u336" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u337-4"><!-- content --><p>Inicio</p></div></a>
+        </li>
+        <li class="MenuItemContainer clearfix grpelem" id="u340"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u343" href="historia.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u345-4"><!-- content --><p>historia</p></div></a>
+        </li>
+        <li class="MenuItemContainer clearfix grpelem" id="u326"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u327" href="temario.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u329-4"><!-- content --><p>Temario</p></div></a>
+        </li>
+        <li class="MenuItemContainer clearfix grpelem" id="u397"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u400" href="evaluaciones.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u401-4"><!-- content --><p>Evaluaciones</p></div></a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="shadow rounded-corners clearfix grpelem" id="u163"><!-- column -->
+      <div class="clearfix colelem" id="u144-6"><!-- content -->
+       <p id="u144-2">INSTITUTO&nbsp; TECNOLÓGICO DE ORIZABA</p>
+       <p id="u144-4">Matemáticas&nbsp; Discretas</p>
+      </div>
+      <div class="colelem" id="u161"><!-- simple frame --></div>
+     </div>
+     <img class="grpelem" id="u155" src="images/escudo-u155.png" alt="" width="254" height="193"/><!-- rasterized frame -->
+     <div class="grpelem" id="u1290"><!-- custom html -->
+      <embed src="romeo2.MP3" autostart="false"  loop="true" width="200" height="40" >
+
+</div>
+    </div>
+    <div class="clearfix colelem" id="u145-7"><!-- content -->
+     <p id="u145-2">Material Didáctico</p>
+     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span id="u145-4">Matemáticas Discretas</span></p>
+    </div>
+    <div class="clearfix colelem" id="pu589"><!-- group -->
+     <div class="grpelem" id="u589"><!-- custom html -->
+      
+<html lang="en">
+<head>
+<title>Matemáticas Discretas </title>
+<meta charset="utf-8">
+
+<style type="text/css">
+<!--
+.Estilo1 {color: #000000}
+.Estilo2 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #0000FF;
+}
+.Estilo3 {
+	color: #0000FF;
+	font-size: 24;
+}
+-->
+</style>
+</head>
+<body id="page4">
+<div class="body3"></div>
+<div class="main">
+  <div class="wrapper">
+    <div class="text2"> <p class="Estilo2"> 1.4 Algoritmo De Booth (La Multiplicación Binaria)</div>
+    <!-- / header -->
+  </div>
+</div>
+<div class="body2">
+	<div class="main">
+<!-- content -->
+		<section id="content">
+			<div class="marg_top wrapper">
+				<div class="box1_out">
+				  <div class="box1">
+                    	<span class="Estilo3"><br>
+                        <br>
+						</span>
+                    	<div align="center">
+						  <p class="Estilo2"> ALGORITMO DE BOOTH(LA MULTIPLICACION BINARIA)</p>
+						</div>
+                        <p align="justify" class="Estilo1">El algoritmo de booth es un algoritmo que sirve para multiplicar (y dividir) números binarios con signo de                         manera rápida y sencilla en complemento a dos. Aqui explico de manera detallada el funcionamiento de ese                         algoritmo y muestro una implementación del mismo para micro controladores PIC.</p>
+                        <p align="justify" class="Estilo1">La manera en que se representan los números binarios negativos es mediante su complemento a dos. El                         complemento a uno consiste en invertir el valor de cada bit, esto es que si se tiene el número 5 binario                         b'00000101′ su complemento a uno sería b'11111010′. Una vez teniendo el complemento a 1 para obtener el                         complemento a dos simplemente se le debe sumar un 1, asi que se tiene b'11111010 + 1′ de modo que el                         complemento a dos del número 5 binario es b'11111011′.</p>
+                        <p align="justify" class="Estilo1">Ese es un dato muy importante ya que de ese modo se representan los números binarios negativos y el                         complemento a dos es parte del algoritmo de multiplicación de Booth. También es importante explicar que                         utilizando números de 8 bits el número mayor que se puede representar en complemento a dos es 127 y -127 que                         en binario son b'01111111′ y b'1000001′ respectivamente.</p>
+                        <p align="justify" class="Estilo1">En ensamblador MPASM la manera de obtener el complemento a dos de un número es:</p>
+						<p class="Estilo1">comf NUM,f</p>
+						<p class="Estilo1">incf NUM,w</p>
+						<p class="Estilo1">movwf NUMC2</p>
+                        <p align="justify" class="Estilo1">Donde NUM es el registro en el que se encuentra el número que se quiere pasar a complemento a dos y NUMC2 					                        es el registro donde se guarda el complemento a dos del número. Hasta ahí todo bien, ahora pasemos al                        algorítmo.
+                        Supongamos que queremos multiplicar dos números de 8 bits, digamos que queremos multiplicar 5*(-6) donde 5 es                        el multiplicando y -6 es el multiplicador, con esos datos se forman 3 arreglos distintos de la siguiente                        manera:</p>
+                        <p class="Estilo1">A=0000 0101 0000 0000 0</p>
+						<p class="Estilo1">S=1111 1010 0000 0000 0</p>
+						<p class="Estilo1">P=0000 0000 1111 1010 0</p>
+						<p align="justify" class="Estilo1">El byte superior de A está formado por el multiplicando, el siguiente byte se forma con ceros y se agrega un				                         bit extra que también es 0.</p>
+                        <p align="justify" class="Estilo1">El byte superior de S está formado por el complemento a dos del multiplicando, el siguiente byte al igual                         que el caso anterior se forma con ceros y al final se agrega un bit extra que es 0.</p>
+                         <p align="justify" class="Estilo1">El byte superior de P está formado por ceros, el siguiente byte es el valor del multiplicador y por último                         se tiene el bit extra.</p>
+                         <p align="justify" class="Estilo1">Se puede observar que los tres números formados son de 17 bits cuando los números que se van a multiplicar                          son de 8 de modo que los números formados siempre serán de N+1 bits, siendo N el número de bits de los                          factores.
+                          Sigamos entonces. Este algoritmo consiste en comparar los últimos dos dígitos del número P y dependiendo del                          caso que sea realizar un suma o no realizar ninguna acción. Luego de evaluar cada caso se debe realizar un                          corrimiento a la derecha, manteniendo el valor del bit más significativo y desechando el valor del bit menos                          significativo. Los cuatro casos que se tienen se pueden ver en la siguiente tabla:</p>
+                          <p class="Estilo1">0 0 -> No realizar ninguna acción</p>
+					      <p class="Estilo1">0 1 -> P = P + A</p>
+                          <p class="Estilo1">1 0 -> P = P + S</p>
+                          <p class="Estilo1">1 1 -> No realizar ninguna acción</p>
+                          <p class="Estilo1">Veamos el algoritmo paso a paso usando los números A, S y P de arriba. Primero tenemos el número P                           original:</p>
+                          <p class="Estilo1">0000 0000 1111 101[0 0] P</p>
+                          <p align="justify" class="Estilo1">Se comparan los últimos dos dígitos [0 0] con los cuatro casos posibles y se ve que no se debe realizar                           ninguna acción por lo que en la primer iteración simplemente se realiza un corrimiento a la derecha:</p>
+						  <p class="Estilo1">1.0000 0000 0111 110[1 0] -></p>
+						  <p class="Estilo1">Ahora los últimos dos dígitos [1 0] indican que se debe realizar la suma P=P+S y después el corrimiento a 	                           la derecha:</p>
+						  <p class="Estilo1">2.1111 1011 0111 110[1 0] P=P+S</p>
+						  <p class="Estilo1">1111 1101 1011 111[0 1] -></p>
+						  <p align="justify" class="Estilo1">Después del corrimiento los últimos dos dígitos son [0 1] por lo que se debe realizar la suma P=P+A y 					                           después el corrimiento a la derecha:</p>
+						  <p class="Estilo1">3.0000 0010 1011 111[0 1] P=P+A</p>
+						  <p class="Estilo1">0000 0001 0101 111[1 0] -></p>
+						  <p class="Estilo1">Ahora los últimos dos dígitos son [1 0], se realiza la suma P=P+S y después el corrimiento a la derecha:        				  </p>
+						  <p class="Estilo1">4.1111 1100 0101 111[1 0] P=P+S</p>
+						  <p class="Estilo1">1111 1110 0010 111[1 1] -></p>
+						  <p class="Estilo1">Los últimos dos dígitos [1 1] al igual que cuando fueron [0 0] indican que solo se debe realizar el                           corrimiento a la derecha:</p>
+						  <p class="Estilo1">5.1111 1111 0001 011[1 1] -></p>
+                          <p class="Estilo1">De nuevo se tiene [1 1] por lo que se realiza únicamente el corrimiento y en lo sucesivo se tendrá siempre                           el mismo caso:</p>
+                          <p class="Estilo1">6. 1111 1111 1000 101[1 1] -></p>
+                          <p class="Estilo1">7. 1111 1111 1100 010[1 1] -></p>
+                          <p class="Estilo1">8. 1111 1111 1110 0010 [1] -></p>
+                          <p class="Estilo1">Después de 8 iteraciones termina el algoritmo, se desecha el bit menos significativo (el bit extra) y se                           obtiene el producto de la multiplicación:</p>
+                          <p class="Estilo1">5*(-6) = 1111 1111 1110 0010 = -30</p>
+                          <p align="justify" class="Estilo1">Cabe mencionar que el numero de iteraciones que realiza el algoritmo es igual N, que es el numero de bits                           de los factores y el resultado final es igual a 2N, en este caso se multiplican factores de 8 bits por lo                           que el resultado final es de 16.
+                           Esta es la manera en la que funciona el algoritmo. Solamente hay que tener en cuenta que al realizar los                           corrimientos a la derecha se debe mantener siempre el bit más significativo, esto es que si se tiene '1101′                           se realiza el corrimiento el resultado será '1110′ y no '0110′.</p>
+                          <div align="center" class="Estilo1">
+                            <p class="Estilo2">IMPLEMENTACION DEL ALGORITMO DE BOOTH EN MPASM</p>
+                          </div>
+                          <p align="justify" class="Estilo1">Aplicando los pasos que acabo de explicar realice una implementación del algoritmo de Booth para la                           multiplicación en MPASM para realizar multiplicaciones de números signados de 8 bits en micro controladores                           PIC 16F.</p>
+                          <p align="justify" class="Estilo1">El algoritmo implementado sigue los mismos pasos descritos, compara los últimos dos dígitos del factor P y                           realiza alguna de las acciones posibles para después llevar a cabo el corrimiento. Como mencione en un                           principio el algoritmo solo puede multiplicar números que van del -127 al 127 y el resultado lo da a través                           de los registros RESULTADOH: RESULTADOL.</p>
+                           <p align="justify" class="Estilo1">Para poder utilizar esta rutina (multibooth) se deben declarar los registros A1, A2, A3, S1, S2, S3, P1,                           P2, P3, MULTIPLICANDO, MULTIPLICADOR, RESULTADOH, RESULTADOL y CONT.</p>
+                           <p align="justify" class="Estilo1">En los registros RESULTADOH :RESULTADOL se muestra el valor positivo del resultado y si este fuera                            negativo se activa la bandera SIGNO (bit 0 del registro A3) para indicar que se trata de un numero                            negativo.</p>
+                            <p align="justify" class="Estilo1">Una vez explicado el algoritmo creo que no hay necesidad de explicar la implementación de la rutina                            aunque si así fuera siempre están los comentarios para exponer y aclarar las dudas.</p>
+                            <p class="Estilo1">&nbsp;</p>
+                            <p class="Estilo1">&nbsp;</p>
+                            
+							<p align="center" class="Estilo1">&nbsp;</p>
+                          <p class="Estilo1">&nbsp;</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
+<script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>
+
+</div>
+     <a class="nonblock nontext grpelem" id="u1204" href="temario.html"><!-- rasterized frame --><img id="u1204_img" src="images/img3-u1204.png" alt="" width="203" height="221"/></a>
+     <a class="nonblock nontext grpelem" id="u1207" href="1-3.html"><!-- rasterized frame --><img id="u1207_img" src="images/atras-u1207.png" alt="" width="85" height="85"/></a>
+     <a class="nonblock nontext grpelem" id="u1209" href="1-5.html"><!-- rasterized frame --><img id="u1209_img" src="images/adelante-u1209.png" alt="" width="86" height="86"/></a>
+    </div>
+    <div class="clearfix colelem" id="u1206-4"><!-- content -->
+     <p>TEMARIO</p>
+    </div>
+    <div class="verticalspacer"></div>
+   </div>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script src="scripts/museutils.js?3992981318" type="text/javascript"></script>
+  <script src="scripts/jquery.musemenu.js?3788803530" type="text/javascript"></script>
+  <script src="scripts/jquery.watch.js?4068933136" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks();/* body */
+Muse.Utils.initWidget('.MenuBar', function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+   </body>
+</html>

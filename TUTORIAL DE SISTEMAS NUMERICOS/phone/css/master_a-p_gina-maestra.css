@@ -1,0 +1,162 @@
+#u734
+{
+	-pie-box-shadow: 6px 6px 8px #AAAAAA;
+	-moz-box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.33);
+	-webkit-box-shadow: 6px 6px 8px -1px rgba(0, 0, 0, 0.33);
+	box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.33);
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	position: relative;
+	background: #1B1464 url("../../images/cabeza.jpg") no-repeat right bottom;
+}
+
+#u735
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #FCEE21;
+	opacity: 0.42;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=42)";
+	filter: alpha(opacity=42);
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	position: relative;
+}
+
+#u736-6
+{
+	font-weight: bold;
+	position: relative;
+}
+
+#u736-2
+{
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+#u736-4
+{
+	font-size: 17px;
+	color: #A2CAE4;
+}
+
+#u738
+{
+	-pie-box-shadow: none;
+	-moz-box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.98);
+	-webkit-box-shadow: 6px 6px 8px -1px rgba(0, 0, 0, 0.98);
+	box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.98);
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #FFFFFF;
+	opacity: 0.21;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=21)";
+	filter: alpha(opacity=21);
+	position: relative;
+}
+
+#u740
+{
+	display: block;
+	vertical-align: top;
+	position: relative;
+}
+
+#u737-2
+{
+	font-size: 20px;
+}
+
+#u737-4
+{
+	color: #0071BC;
+}
+
+#menuu742
+{
+	border-width: 2px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: transparent;
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px;
+	-khtml-border-radius: 18px;
+	border-radius: 18px;
+	position: relative;
+}
+
+#u737-7,#u787-3,#u772
+{
+	position: relative;
+}
+
+#u773
+{
+	background-color: #2E3192;
+	position: relative;
+}
+
+#u773:hover
+{
+	background-color: #0071BC;
+}
+
+#u773:active
+{
+	background-color: #6B6B6B;
+}
+
+#u773.MuseMenuActive
+{
+	background-color: #0071BC;
+}
+
+#u776-4
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	position: relative;
+}
+
+#u773.MuseMenuActive #u776-4
+{
+	border-style: none;
+	border-color: transparent;
+}
+
+.MenuItem /* unifiedNavBar */
+{
+	cursor: pointer;
+}
+
+#u739
+{
+	-pie-box-shadow: 6px 6px 8px #BCBCBC;
+	-moz-box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.26);
+	-webkit-box-shadow: 6px 6px 8px -1px rgba(0, 0, 0, 0.26);
+	box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.26);
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #2E3192;
+	-moz-border-radius: 13px;
+	-webkit-border-radius: 13px;
+	-khtml-border-radius: 13px;
+	border-radius: 13px;
+	position: relative;
+}
+
