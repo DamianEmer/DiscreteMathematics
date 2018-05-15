@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ito.mathematics.view.MainViewController">
+   <left>
+      <VBox id="mainMenu" prefHeight="400.0" prefWidth="200.0" style="-fx-background-color: #2085c9;" styleClass="menu" BorderPane.alignment="CENTER">
+         <children>
+            <Button id="btnHome" mnemonicParsing="false" onAction="#goHome" prefHeight="52.0" prefWidth="204.0" styleClass="btn-home" text="Inicio" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT Bold" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="100.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="200.0" styleClass="btn-history" text="Historia" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#goTemary" prefHeight="52.0" prefWidth="200.0" styleClass="btn-temary" text="Temario" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="200.0" styleClass="btn-test" text="Evaluaciones" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+         <padding>
+            <Insets right="1.0" />
+         </padding>
+      </VBox>
+   </left>
+</BorderPane>

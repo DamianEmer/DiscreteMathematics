@@ -1,0 +1,20 @@
+#mainMenu .btn-home, .btn-history, .btn-temary, .btn-test {
+	-fx-font-size: 14px;
+	-fx-background-color: #2085c9;
+} 
+
+#mainMenu .btn-home:hover{
+	-fx-background-color: #0d5f96;
+}
+
+#mainMenu .btn-history:hover{
+	-fx-background-color: #0d5f96;
+}
+
+#mainMenu .btn-temary:hover{
+	-fx-background-color: #0d5f96;
+}
+
+#mainMenu .btn-test:hover {
+	-fx-background-color: #0d5f96;
+}
