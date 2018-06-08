@@ -11,13 +11,17 @@ public class MainApplication extends Application {
 
     private Stage primaryStage;
 
+    private RootLayout rootLayout;
+
     @Override
     public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
         primaryStage.setTitle("Tutorial de Sistemas Numericos");
 
         try {
-            RootLayout.getRootLayout(primaryStage).setNavbar(NavbarLayout.getNavbarLayout(primaryStage).getAnchorPane());
+            rootLayout = RootLayout.getRootLayout(primaryStage);
+            rootLayout.setNavbar(NavbarLayout.getNavbarLayout(primaryStage).getAnchorPane());
+            // rootLayout.getScene().getStylesheets().add("com/ito/projects/discrete/mathematics/styles.css");
         } catch (IOException e) {
             e.printStackTrace();
         }
